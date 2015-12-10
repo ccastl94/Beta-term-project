@@ -22,12 +22,12 @@
       height: 500px;
       max-width: 800px;
       margin: auto;
-
     }
 
     .featured-events-top {
       float: right;
     }
+
 
     .Teams {
       width: 100%;
@@ -37,18 +37,19 @@
       margin: 20px;
     }
 
-    .Sponsors {
+    .Sponsors-Panel {
       width: 100%;
-      height: 150px;
+      height: auto;
       padding: 20px;
-      border: 2px solid grey;
+      border: 2px solid #C6102E;
       margin: 20px;
+      border-radius: 15px;
     }
     .Reserve-Seat {
       width: 100%;
       height: 150px;
       padding: 20px;
-      border: 2px solid grey;
+      border: 2px solid #C6102E;
       margin: 20px;
     }
     .btn-primary {
@@ -61,6 +62,39 @@
     body {
       background-color: lightgrey
     }
+    footer {
+    background-color: #222222;
+    width: 100%;
+    padding: 20px;
+    border: 5px solid #C8102E;
+    margin: 25px;
+    border-radius: 15px;
+    color: #C8102E;
+    align-content:
+  }
+    .featured-event-teaser  {
+    margin: 5px;
+    width: 48.5%;
+    height: 170px;
+    background-color: #222222;
+    color: white;
+    border-radius: 15px;
+    }
+    .navbar-brand {
+      padding: 6px 15px;
+    }
+  .Sponsors {
+    color: black;
+    text-decoration: underline;
+  }
+  .Event-Details {
+    text-decoration: underline;
+  }
+  .Reserve-seat {
+    text-decoration: underline;
+  }
+
+
 
   </style>
   <link rel="stylesheet" type="text/css" media="all" href="C:\Users\user1\Desktop\GitHub\Beta-term-project\Style.css" />
@@ -145,10 +179,10 @@
 
       <div class="featured-events-bottom row">
         <div class="featured-event-teaser col-md-6 col-sm-6">
-          <h1 id="EventDetails">Event Details</h1>
-          <h3>
+          <h1 id="EventDetails" Class="Event-Details">Event Details</h1>
+          <h4>
           April 5, 2016
-          </h3>
+          </h4>
           <h4>
           Fairfield University Quick Center
         </h4>
@@ -162,30 +196,31 @@
       </secton>
 
     <div class="Sponsors-Panel">
-    <center> <h1 id="sponsors"> Gold Sponsors </h1></center>
+    <center> <h1 id="sponsors" class="Sponsors"> Gold Sponsors </h1></center>
     <center> <a href="http://www.criticalmix.com/"> <img src="images\CriticalMixLogo_0.png"><a href="http://www.barnesgroupinc.com">  <img src="images\BGI_Logo.png"> </a> </center>
-    <center><h2> Silver Sponsors </h2><center>
+    <center><h2 class="Sponsors"> Silver Sponsors </h2><center>
     <center> <a href="http://www.rsm.global/"><img src="images\RSM.jpg"> </a> </center>
-    <center> <h3> bronze sponsors </h3> </center>
+    <center> <h3 class="Sponsors"> Bronze Sponsors </h3> </center>
     <center><img src="images\Sita & Christopher Stephens.png"> <a href="http://www.cartermorse.com/">"<img src="images\CarterMorseMathias.jpg"> </a>  </center>
-    <center> <h4> other partners <h4> <center>
+    <center> <h4 class="Sponsors"> Other Partners <h4> <center>
     <center> <a href="http://indie-soft.com/"><img src="images\indie.png"><a href="http://fame.fairfield.edu/"> <img src="images/FAME_Logo_Short.png"a href="http://www.entrepreneurshipfoundation.org/"> <img src="images/EntrepreneurshipFoundation_0.png"> <a href="http://www.blumshapiro.com/"> <img src="images/blumshapiro_footer.png"> </a> </center>
 
   </div>
 
 <footer>
+
       <h1 id="socialmedia">
         Twitter/Social Media information
       </h1>
       <h2>
-      <a href="mailto:businessplan@fairfield.edu">Email us </a>
-    </h2>
+        Email Us: <a href="mailto:businessplan@fairfield.edu">businessplan@fairfield.edu </a>
+      </h2>
     <h2>
-      Follow us on Twitter
+      Follow us on Twitter:
       <a href="http://www.twitter.com/StagUp_BPC"> @StagUp_BPC </a>
     </h2>
     <h2>
-      Connect with us on LinkedIn
+      Connect with us on LinkedIn:
       <a href="https://www.linkedin.com/groups/8367284/profile"> Fairfield University StagUp (BPC)
     <h2>
 </footer>
